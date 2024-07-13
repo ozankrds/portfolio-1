@@ -1,0 +1,376 @@
+* {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #000011;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    gap: 40px;
+}
+
+.nav .logo {
+    color: aqua;
+    background-color: #000027;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #00003D;
+    border-radius: 48px;
+    padding: 0px;
+}
+
+.nav .logo i {
+    background-color: transparent;
+    font-size: 32px;
+}
+
+.nav .items {
+    background-color: #000027;
+    width: 90%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #00003D;
+    border-radius: 48px;
+    padding: 0px 60px;
+}
+
+.nav .items .item {
+    background-color: transparent;
+}
+
+.nav .items .item a {
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px;
+    padding: 72px 24px;
+    background-color: #000027;
+    height: auto;
+    border-radius: 24px;
+}
+
+.hero .info {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    padding: 0px 24px;
+}
+
+.hero .info .profession h2 {
+    color: #bababa;
+}
+
+.hero .info .myself h1 {
+    color: white;
+    font-size: 42px;
+}
+
+.hero .info .myself p {
+    color: #bababa;
+}
+
+.hero .info * {
+    background-color: transparent;
+}
+
+.hero .profile {
+    background-color: transparent;
+    padding: 0px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero .profile img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border: 5px solid #bababa;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.hero .profile i {
+    background-color: transparent;
+    color: #bababa;
+}
+
+.works-and-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 24px;
+    padding: 24px;
+    background-color: #000027;
+    border-radius: 24px;
+    gap: 60px;
+}
+
+.works-and-skills .works {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    padding: 0px 24px;
+}
+
+.works-and-skills .works > h3 {
+    background-color: #000080;
+    color: #bababa;
+    padding: 16px;
+    font-size: 32px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.works-and-skills .works h3 i {
+    background-color: transparent;
+    font-size: 12px;
+}
+
+.works-and-skills .works .work-list {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.works-and-skills .works .work-list .item {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.works-and-skills .works .work-list .item h4 {
+    background-color: transparent;
+    color: #E0E0E0;
+    font-size: 24px;
+}
+
+.works-and-skills .works .work-list .item a {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    color: #bababa;
+}
+
+.works-and-skills .skills {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 0px 24px;
+}
+
+.works-and-skills .skills .top {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.works-and-skills .skills .top h3 {
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.works-and-skills .skills .top .items {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.works-and-skills .skills .top .items .item {
+    background-color: #000080;
+    padding: 10px 20px;
+    border-radius: 24px;
+}
+
+.works-and-skills .skills .top .items .item h4 {
+    background-color: transparent;
+    color: #e0e0e0;
+    font-size: 16px;
+}
+
+.works-and-skills .skills .top .items .item p {
+    background-color: transparent;
+    color: #bababa;
+    word-spacing: 5px;
+}
+
+.works-and-skills .skills .bottom {
+    background-color: transparent;
+}
+
+.works-and-skills .skills .bottom h3 {
+    background-color: transparent;
+    color: #E0E0E0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.works-and-skills .skills .bottom .items {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.works-and-skills .skills .bottom .items .item {
+    background-color: #000080;
+    padding: 10px 20px;
+    border-radius: 24px;
+}
+
+.works-and-skills .skills .bottom .items .item h4 {
+    background-color: transparent;
+    color: #e0e0e0;
+    font-size: 16px;
+}
+
+.works-and-skills .skills .bottom .items .item p {
+    background-color: transparent;
+    color: #bababa;
+    word-spacing: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px;
+    padding: 24px;
+    background-color: #000027;
+    border-radius: 24px;
+}
+
+footer p {
+    background-color: transparent;
+    color: #bababa;
+    padding: 0px 24px;   
+}
+
+footer .social-medias {
+    background-color: transparent;
+    display: flex;
+    gap: 20px;
+}
+
+footer .social-medias a {
+    color: #bababa;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 60px;
+    gap: 5px;
+}
+
+@media screen and (max-width: 1250px) {
+    .hero {
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+
+    .hero .info {
+        align-items: center;
+    }
+
+    .hero .info .myself {
+        text-align: center;
+    }
+
+    .hero .profile {
+        flex-direction: row;
+        gap: 100px;
+    }
+
+    .hero .profile img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .works-and-skills .works > h3 {
+        font-size: 24px;
+    }
+
+    .works-and-skills .skills .top .items {
+        flex-wrap: wrap;
+    }
+
+    .works-and-skills .skills .top .items .item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1012px) {
+    .nav .logo {
+        display: none;
+    }
+
+    .nav .items {
+        width: 100%;
+    }
+
+    .hero .info .profession h2 {
+        font-size: 18px;
+    }
+
+    .hero .info .myself > h1 {
+        font-size: 32px;
+    }
+
+    .hero .info .myself > p {
+        font-size: 14px;
+    }
+
+    .works-and-skills {
+        grid-template-columns: 100%;
+    }
+
+    .works-and-skills .works > h3 {
+        font-size: 18px;
+    }
+
+    .works-and-skills .works .work-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 50px;
+    }
+
+    .works-and-skills .works .work-list .item h4 {
+        font-size: 14px;
+    }
+
+    .works-and-skills .works .work-list .item a {
+        font-size: 14px;
+    }
+}
